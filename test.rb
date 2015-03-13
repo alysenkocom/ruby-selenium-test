@@ -1,6 +1,6 @@
 require 'selenium-webdriver'
-require_relative 'sys/WebPage'
-require_relative 'sys/LoginPage'
+require_relative 'pages/WebPage'
+require_relative 'pages/LoginPage'
 
 def test1 user_email, user_pass
   puts '---- start --- test1'
